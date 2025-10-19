@@ -398,34 +398,14 @@
                                                 "language": "en"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
                                     }
                                 ]
                             }
-                        ]
-                    },
-                    {
-                        "description": "Colemak base layout (English only)",
-                        "manipulators": [
-                            {"type": "basic", "from": {"key_code": "e"}, "to": [{"key_code": "f"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "r"}, "to": [{"key_code": "p"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "t"}, "to": [{"key_code": "b"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "y"}, "to": [{"key_code": "j"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "u"}, "to": [{"key_code": "l"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "i"}, "to": [{"key_code": "u"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "o"}, "to": [{"key_code": "y"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "p"}, "to": [{"key_code": "semicolon"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "s"}, "to": [{"key_code": "r"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "d"}, "to": [{"key_code": "s"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "f"}, "to": [{"key_code": "t"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "h"}, "to": [{"key_code": "k"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "k"}, "to": [{"key_code": "e"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "l"}, "to": [{"key_code": "i"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "semicolon"}, "to": [{"key_code": "o"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "z"}, "to": [{"key_code": "x"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "x"}, "to": [{"key_code": "c"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "c"}, "to": [{"key_code": "d"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "b"}, "to": [{"key_code": "m"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]},
-                            {"type": "basic", "from": {"key_code": "m"}, "to": [{"key_code": "h"}], "conditions": [{"type": "input_source_if", "input_sources": [{"language": "en"}]}]}
                         ]
                     },
                     {
@@ -466,12 +446,12 @@
                         ]
                     },
                     {
-                        "description": "N Layer: Navigation arrows (S=left, T=right, N=down, E=up)",
+                        "description": "N Layer: Navigation",
                         "manipulators": [
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "s"
+                                    "key_code": "d"
                                 },
                                 "to": [
                                     {
@@ -497,7 +477,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "t"
+                                    "key_code": "f"
                                 },
                                 "to": [
                                     {
@@ -523,7 +503,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "n"
+                                    "key_code": "j"
                                 },
                                 "to": [
                                     {
@@ -549,7 +529,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "e"
+                                    "key_code": "k"
                                 },
                                 "to": [
                                     {
@@ -575,7 +555,7 @@
                         ]
                     },
                     {
-                        "description": "N Layer: Brackets (Q=[, W=], F={, P=}, A=(, R=))",
+                        "description": "N Layer: Brackets",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -632,7 +612,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "f"
+                                    "key_code": "e"
                                 },
                                 "to": [
                                     {
@@ -661,7 +641,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "p"
+                                    "key_code": "r"
                                 },
                                 "to": [
                                     {
@@ -719,7 +699,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "r"
+                                    "key_code": "s"
                                 },
                                 "to": [
                                     {
@@ -748,63 +728,8 @@
                         ]
                     },
                     {
-                        "description": "N Layer: Quotes and Special chars (V=\", M=', G=:, K=^, I=\", O=')",
+                        "description": "N Layer: Quotes",
                         "manipulators": [
-                            {
-                                "type": "basic",
-                                "from": {
-                                    "key_code": "v"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "quote",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
-                                    }
-                                ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "n_layer",
-                                        "value": 1
-                                    },
-                                    {
-                                        "type": "input_source_if",
-                                        "input_sources": [
-                                            {
-                                                "language": "en"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "basic",
-                                "from": {
-                                    "key_code": "m"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "quote"
-                                    }
-                                ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "n_layer",
-                                        "value": 1
-                                    },
-                                    {
-                                        "type": "input_source_if",
-                                        "input_sources": [
-                                            {
-                                                "language": "en"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
                             {
                                 "type": "basic",
                                 "from": {
@@ -837,7 +762,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "k"
+                                    "key_code": "h"
                                 },
                                 "to": [
                                     {
@@ -866,7 +791,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "i"
+                                    "key_code": "l"
                                 },
                                 "to": [
                                     {
@@ -895,7 +820,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "o"
+                                    "key_code": "semicolon"
                                 },
                                 "to": [
                                     {
@@ -915,6 +840,1326 @@
                                                 "language": "en"
                                             }
                                         ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "v"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "quote",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "b"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "quote"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Colemak base layout (English only)",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "e"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "r"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "p"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "t"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "b"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "y"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "u"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "u"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "o"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "y"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "p"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "semicolon"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "s"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "r"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "d"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "s"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "f"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "t"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "h"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "k"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "e"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "l"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "semicolon"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "o"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "z"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "x"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "c"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "d"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "b"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "m"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "m"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "h"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "p",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "b",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "y",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "u",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "y",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "semicolon",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "r",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "s",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "t",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "h",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "e",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "semicolon",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "o",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "b",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "m",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "h",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "input_source_if",
+                                        "input_sources": [
+                                            {
+                                                "language": "en"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "variable_unless",
+                                        "name": "n_layer",
+                                        "value": 1
                                     }
                                 ]
                             }
