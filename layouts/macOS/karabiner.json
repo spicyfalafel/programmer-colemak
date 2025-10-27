@@ -383,7 +383,12 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "j"
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -2307,67 +2312,12 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "open_bracket"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "z"
-                                    }
-                                ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_unless",
-                                        "name": "n_layer",
-                                        "value": 1
-                                    },
-                                    {
-                                        "type": "input_source_if",
-                                        "input_sources": [
-                                            {
-                                                "language": "en"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "basic",
-                                "from": {
                                     "key_code": "open_bracket",
                                     "modifiers": {
-                                        "mandatory": [
-                                            "shift"
+                                        "optional": [
+                                            "any"
                                         ]
                                     }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "z",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
-                                    }
-                                ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_unless",
-                                        "name": "n_layer",
-                                        "value": 1
-                                    },
-                                    {
-                                        "type": "input_source_if",
-                                        "input_sources": [
-                                            {
-                                                "language": "en"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "basic",
-                                "from": {
-                                    "key_code": "close_bracket"
                                 },
                                 "to": [
                                     {
@@ -2395,17 +2345,14 @@
                                 "from": {
                                     "key_code": "close_bracket",
                                     "modifiers": {
-                                        "mandatory": [
-                                            "shift"
+                                        "optional": [
+                                            "any"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "z",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "z"
                                     }
                                 ],
                                 "conditions": [
